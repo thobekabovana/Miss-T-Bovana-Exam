@@ -24,7 +24,7 @@ const PORT = process.env.PORT || 5000;
 // };
 
 admin.initializeApp({
-    credential: admin.credential.cert(serviceAccount),
+    // credential: admin.credential.cert(serviceAccount),
     storageBucket: process.env.FIREBASE_STORAGE_BUCKET, // Replace with your Firebase Storage bucket name
 });
 
