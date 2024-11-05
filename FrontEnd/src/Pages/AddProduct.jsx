@@ -123,7 +123,12 @@ export default function ProductForm() {
           >
             {loading ? "Submitting..." : "Submit Product"}
           </button>
+
         </div>
+
+        <p className="text-gray-400 text-center">
+                     To Go To your Products <Link to="/productList" className="text-white hover:underline">Click here</Link>
+                </p>
       </form>
     </div>
   );

@@ -9,7 +9,7 @@ import Layout from './Components/LayOut'
 import { LogIn } from './Pages/Log-In'
 import ProductForm from './Pages/AddProduct';
 import ProductList from './Pages/Product-List';
-import Cart from './Pages/Cart';
+// import Cart from './Pages/Cart';
 
 function App() {
 
@@ -23,7 +23,7 @@ function App() {
             <Route path="/sign-up" element={< Register/>} />
             <Route path="/productForm" element={< ProductForm />} />
             <Route path="/productList" element={<ProductList />} />
-            <Route path="/cart" element={<Cart />} />
+            {/* <Route path="/cart" element={<Cart />} /> */}
 
           </Route>
         </Routes>
